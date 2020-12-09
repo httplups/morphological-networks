@@ -1,0 +1,9 @@
+sklearn.datasets.make_classification
+ou
+sklearn.datasets.make_bloobs
+
+SLMP.predict - Recebe w e x e retorna a classe.
+SLMP.fit - Recebe pares X e y e retorna w
+
+
+sklearn.base.ClassifierMixin
