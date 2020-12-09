@@ -8,7 +8,7 @@ setup(
     author='Me',
     license='MIT',
     install_requires=[],
-    setup_requires=['pytest-runner','wheel','numpy', 'sklearn.base'],
+    setup_requires=['pytest-runner','wheel','numpy', 'scikit-learn'],
     tests_require=['pytest==4.4.1'],
     test_suite='tests',
 )

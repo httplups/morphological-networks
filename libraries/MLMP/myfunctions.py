@@ -1,3 +1,5 @@
+from sklearn.base import BaseEstimator, ClassifierMixin
+
 def get_intercept(X, y):
     # quando y == 1, y == label (one vs all)
     w = list()
