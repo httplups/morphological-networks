@@ -37,7 +37,7 @@ def get_boxes(X, y, w, label):
 
 
 def get_inside(X, y, w):
-        n = X.shape[1]
+    n = X.shape[1]
     ind = np.min(np.minimum(X+w[0:n],-X+w[n:]),axis=1)>0
     return X[ind], y[ind]
 
