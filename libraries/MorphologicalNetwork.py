@@ -1,4 +1,5 @@
 from sklearn.base import BaseEstimator, ClassifierMixin
+import numpy as np
 
 def get_intercept(X, y):
     # quando y == 1, y == label (one vs all)
@@ -70,7 +71,7 @@ class MLMP(BaseEstimator, ClassifierMixin):
     
     def decision_function(self,X, label):
         X = np.hstack([X,-X])
-        return np.max(np.vstack([np.min(X+w, axis=1) for w in clf.boxes_[label]]),axis=0)
+        return np.max(np.vstack([np.min(X+w, axis=1) for w in self.boxes_[label]]),axis=0)
     
     def predict(self,X):
         Y = np.vstack([self.decision_function(X,label) for label in range(self.Nclasses_)])

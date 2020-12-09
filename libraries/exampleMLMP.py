@@ -4,6 +4,7 @@ from matplotlib.patches import Polygon
 from sklearn.datasets import load_breast_cancer, make_blobs, make_moons
 from sklearn.model_selection import train_test_split
 from mlxtend.plotting import plot_decision_regions
+from MorphologicalNetwork import MLMP
 
 
 def main():
@@ -12,6 +13,12 @@ def main():
     y = y%4
     plt.scatter(X[:,0],X[:,1],c=y)
     plt.grid(True)
+    plt.show()
+    
+    # treinando modelo
+    clf = MLMP()
+    w = clf.fit(X, y)
+    plot_decision_regions(X,y,clf)
 
 if __name__ == "__main__":
     main()
