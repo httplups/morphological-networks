@@ -1,4 +1,6 @@
-from setuptools import find_packages, setupsetup(
+from setuptools import find_packages, setup
+
+setup(
     name='MLMP',
     packages=find_packages(include=[MLMP]),
     version='0.1.0',
