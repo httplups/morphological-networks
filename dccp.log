@@ -1,0 +1,36 @@
+iteration=1, cost value=0.16964, tau=0.00500, solver status=optimal
+max slack = 0.00000
+iteration=2, cost value=0.16964, tau=0.00600, solver status=optimal
+max slack = 0.00000
+iteration=1, cost value=0.00975, tau=0.00500, solver status=optimal
+max slack = 0.00000
+iteration=2, cost value=0.00975, tau=0.00600, solver status=optimal
+max slack = 0.00000
+iteration=1, cost value=0.00610, tau=0.00500, solver status=optimal
+max slack = 0.00000
+iteration=2, cost value=0.00609, tau=0.00600, solver status=optimal
+max slack = 0.00000
+iteration=3, cost value=0.00522, tau=0.00720, solver status=optimal
+max slack = 0.00000
+iteration=4, cost value=0.00513, tau=0.00864, solver status=optimal
+max slack = 0.00000
+iteration=5, cost value=0.00513, tau=0.01037, solver status=optimal
+max slack = 0.00000
+iteration=1, cost value=0.01177, tau=0.00500, solver status=optimal
+max slack = 0.00000
+iteration=2, cost value=0.00532, tau=0.00600, solver status=optimal
+max slack = 0.00000
+iteration=3, cost value=0.00470, tau=0.00720, solver status=optimal
+max slack = 0.00000
+iteration=4, cost value=0.00470, tau=0.00864, solver status=optimal
+max slack = 0.00000
+iteration=1, cost value=0.00401, tau=0.00500, solver status=optimal
+max slack = 0.00000
+iteration=2, cost value=0.00401, tau=0.00600, solver status=optimal
+max slack = 0.00000
+iteration=1, cost value=0.00107, tau=0.00500, solver status=optimal
+max slack = 0.00000
+iteration=2, cost value=0.00098, tau=0.00600, solver status=optimal
+max slack = 0.00000
+iteration=3, cost value=0.00098, tau=0.00720, solver status=optimal
+max slack = 0.00000

@@ -1,0 +1,39 @@
+graph {
+	node [color=lightblue style=filled]
+	size="8,8"
+	HLM_ELM
+	"MLMP (Bagging)"
+	MLMP
+	SLMP
+	SLMPbox
+	"Linear SVC"
+	"RBF SVC"
+	DEP
+	"r-DEP (Ensemble)"
+	"r-DEP (Bagging)"
+	MDN
+	label="
+Hasse diagram of Wilcoxon signed-rank test
+(confidence level at 99.0%)"
+	HLM_ELM -- MLMP
+	"Linear SVC" -- MLMP
+	HLM_ELM -- SLMPbox
+	"r-DEP (Ensemble)" -- HLM_ELM
+	MDN -- SLMPbox
+	"Linear SVC" -- SLMPbox
+	"MLMP (Bagging)" -- SLMP
+	"RBF SVC" -- HLM_ELM
+	HLM_ELM -- DEP
+	"Linear SVC" -- "MLMP (Bagging)"
+	MDN -- "MLMP (Bagging)"
+	"r-DEP (Bagging)" -- HLM_ELM
+	"r-DEP (Ensemble)" -- MDN
+	HLM_ELM -- "MLMP (Bagging)"
+	"Linear SVC" -- DEP
+	DEP -- SLMP
+	MDN -- MLMP
+	MLMP -- SLMP
+	MDN -- DEP
+	"r-DEP (Bagging)" -- "Linear SVC"
+	"r-DEP (Ensemble)" -- "Linear SVC"
+}
